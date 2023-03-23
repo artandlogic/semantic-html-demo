@@ -1,0 +1,52 @@
+:root {
+    --color-black: #000;
+    --color-white: #f0f0f0;
+    --color-brand-dark: #2a2b2a;
+    --color-brand-mid: #706c61;
+    --color-brand-light: #f8f4e3;
+    --color-brand-primary: #e5446d;
+    --color-brand-secondary: #ff8966;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    color: var(--color-brand-primary);
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+#__nuxt {
+    isolation: isolate;
+}

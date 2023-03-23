@@ -1,0 +1,44 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.rulers": [80],
+    "editor.tabSize": 4,
+    "prettier.requireConfig": true,
+    "prettier.prettierPath": "./node_modules/prettier",
+
+    "files.associations": {
+        "*.css": "postcss"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/Thumbs.db": true
+    },
+    "search.exclude": {
+        "**/dist": true,
+        "**/package-lock.json": true
+    },
+
+    "npm.autoDetect": "off",
+
+    "[css]": {
+        "editor.tabSize": 4
+    },
+    "[html]": {
+        "editor.tabSize": 4
+    },
+    "[json]": {
+        "editor.tabSize": 4
+    },
+    "[typescript]": {
+        "editor.tabSize": 4
+    },
+    "[vue]": {
+        "editor.tabSize": 4
+    }
+}
