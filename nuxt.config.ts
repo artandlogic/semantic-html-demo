@@ -6,4 +6,9 @@ export default defineNuxtConfig({
             "postcss-nesting": {},
         },
     },
+    vite: {
+        optimizeDeps: {
+            exclude: ["@highlightjs/vue-plugin"],
+        },
+    },
 });

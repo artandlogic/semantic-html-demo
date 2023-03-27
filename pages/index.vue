@@ -19,52 +19,92 @@
     <p>
         The HTML of this document looks like this (with a few minor omissions):
     </p>
-    <highlightjs language="html" :code="pageHtml" />
+
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #008000; font-weight: bold">&lt;div</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;app app--document&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+  <span style="color: #008000; font-weight: bold">&lt;header&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;h1</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;header__title&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+      <span style="color: #008000; font-weight: bold">&lt;a</span> <span style="color: #7D9029">href=</span><span style="color: #BA2121">&quot;/&quot;</span> <span style="color: #7D9029">aria-current=</span><span style="color: #BA2121">&quot;page&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Semantic HTML Demo<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;/h1&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;h2</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;header__subtitle&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>One page, many layouts<span style="color: #008000; font-weight: bold">&lt;/h2&gt;</span>
+  <span style="color: #008000; font-weight: bold">&lt;/header&gt;</span>
+  <span style="color: #008000; font-weight: bold">&lt;aside</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;navbar&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;a</span> <span style="color: #7D9029">href=</span><span style="color: #BA2121">&quot;/&quot;</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;navbar__logo-link&quot;</span> <span style="color: #7D9029">aria-current=</span><span style="color: #BA2121">&quot;page&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+      <span style="color: #008000; font-weight: bold">&lt;img</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;navbar__logo&quot;</span> <span style="color: #7D9029">alt=</span><span style="color: #BA2121">&quot;Company logo&quot;</span> <span style="color: #7D9029">src=</span><span style="color: #BA2121">&quot;/images/logo.png&quot;</span><span style="color: #008000; font-weight: bold">/&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;nav</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;navbar__nav&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+      <span style="color: #008000; font-weight: bold">&lt;ul&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;li</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;nav__item nav__item--about&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+          <span style="color: #008000; font-weight: bold">&lt;a</span> <span style="color: #7D9029">href=</span><span style="color: #BA2121">&quot;/about&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>About us<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;/li&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;li</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;nav__item nav__item--services&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+          <span style="color: #008000; font-weight: bold">&lt;a</span> <span style="color: #7D9029">href=</span><span style="color: #BA2121">&quot;/services&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Services<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;/li&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;li</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;nav__item nav__item--careers&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+          <span style="color: #008000; font-weight: bold">&lt;a</span> <span style="color: #7D9029">href=</span><span style="color: #BA2121">&quot;/careers&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Careers<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;/li&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;li</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;nav__item nav__item--contact&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+          <span style="color: #008000; font-weight: bold">&lt;a</span> <span style="color: #7D9029">href=</span><span style="color: #BA2121">&quot;/contact&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Contact<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;/li&gt;</span>
+      <span style="color: #008000; font-weight: bold">&lt;/ul&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;/nav&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;form</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;form-options navbar__form-options&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+      <span style="color: #008000; font-weight: bold">&lt;label</span> <span style="color: #7D9029">for=</span><span style="color: #BA2121">&quot;form-options__select-style&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Style:<span style="color: #008000; font-weight: bold">&lt;/label&gt;</span>
+      <span style="color: #008000; font-weight: bold">&lt;select</span> <span style="color: #7D9029">id=</span><span style="color: #BA2121">&quot;form-options__select-style&quot;</span> <span style="color: #7D9029">value=</span><span style="color: #BA2121">&quot;document&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;option</span> <span style="color: #7D9029">value=</span><span style="color: #BA2121">&quot;document&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Document<span style="color: #008000; font-weight: bold">&lt;/option&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;option</span> <span style="color: #7D9029">value=</span><span style="color: #BA2121">&quot;desktop&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Desktop<span style="color: #008000; font-weight: bold">&lt;/option&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;option</span> <span style="color: #7D9029">value=</span><span style="color: #BA2121">&quot;mobile&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Mobile<span style="color: #008000; font-weight: bold">&lt;/option&gt;</span>
+      <span style="color: #008000; font-weight: bold">&lt;/select&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;/form&gt;</span>
+  <span style="color: #008000; font-weight: bold">&lt;/aside&gt;</span>
+  <span style="color: #008000; font-weight: bold">&lt;main</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;main&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>(Page content goes here)<span style="color: #008000; font-weight: bold">&lt;/main&gt;</span>
+  <span style="color: #008000; font-weight: bold">&lt;footer</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;footer&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>© 2023 Art+Logic, Inc.<span style="color: #008000; font-weight: bold">&lt;/footer&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;/div&gt;</span>
+</pre></td></tr></table></div>
+
 </template>
 <script setup lang="ts">
 import {computed} from 'vue';
 
 import {selectedStyle} from '@/modules/store';
 
-const pageHtml: string = `<div class="app app--document">
-  <header>
-    <h1 class="header__title">
-      <a href="/" aria-current="page">Semantic HTML Demo</a>
-    </h1>
-    <h2 class="header__subtitle">One page, many layouts</h2>
-  </header>
-  <aside class="navbar">
-    <a href="/" class="navbar__logo-link" aria-current="page"
-      ><img class="navbar__logo" alt="Company logo" src="/images/logo.png"
-    /></a>
-    <nav class="navbar__nav">
-      <ul>
-        <li class="nav__item nav__item--about">
-          <a href="/about">About us</a>
-        </li>
-        <li class="nav__item nav__item--services">
-          <a href="/services">Services</a>
-        </li>
-        <li class="nav__item nav__item--careers">
-          <a href="/careers">Careers</a>
-        </li>
-        <li class="nav__item nav__item--contact">
-          <a href="/contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <form class="form-options navbar__form-options">
-      <label for="form-options__select-style">Style:</label>
-      <select id="form-options__select-style" value="document">
-        <option value="document">Document</option>
-        <option value="desktop">Desktop</option>
-        <option value="mobile">Mobile</option>
-      </select>
-    </form>
-  </aside>
-  <main class="main">(Page content goes here)</main>
-  <footer class="footer">© 2023 Art+Logic, Inc.</footer>
-</div>`;
 const styleDropdownLocation = computed(() => {
     if (selectedStyle.value === 'document') {
         return "in the sidebar on the right";
