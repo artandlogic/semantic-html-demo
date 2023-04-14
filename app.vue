@@ -43,10 +43,10 @@
                 v-model="selectedStyle"
             />
         </aside>
-        <main class="main">
+        <main>
             <NuxtPage />
         </main>
-        <footer class="footer">© 2023 Art+Logic, Inc.</footer>
+        <footer>© 2023 Art+Logic, Inc.</footer>
     </div>
 </template>
 <script setup lang="ts">
@@ -65,8 +65,8 @@ const navExpanded: Ref<boolean> = ref(false);
  */
 
 .app {
-    width: 100vw;
     height: 100vh;
+    max-height: 100%;
 }
 
 .app header {
@@ -223,6 +223,7 @@ nav .nav__item {
 
     & main {
         padding: 64px;
+        overflow: auto;
         background-color: var(--color-brand-light);
     }
 
