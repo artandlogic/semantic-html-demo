@@ -1,42 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Semantic HTML Demo
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A demo project of CSS techniques for styling an unchanging "semantic" HTML
+document in three dramatically-different page styles. It accompanies this
+Art+Logic blog post: _(Link to follow)_.
 
-## Setup
+The deployed page is viewable
+[here](https://artandlogic.github.io/semantic-html-demo/).
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The page is built using [Nuxt](https://nuxt.com/) and
+[Vue.js](https://vuejs.org/), not because it (being a simple static page) needs
+any of the features from those libraries, but rather just to demonstrate that
+the techniques for styling semantic HTML work just fine even in larger
+applications making use of libraries and frameworks.
