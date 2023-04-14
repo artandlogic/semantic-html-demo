@@ -1,0 +1,1 @@
+import{a as e,o as t,b as c,e as o}from"./entry.4228db01.js";const a={},n=o("p",null,"Contact page placeholder",-1),s=[n];function r(_,l){return t(),c("div",null,s)}const p=e(a,[["render",r]]);export{p as default};

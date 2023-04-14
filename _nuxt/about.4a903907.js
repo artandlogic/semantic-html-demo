@@ -1,1 +1,0 @@
-import{a as e,o,b as t,e as c}from"./entry.157a0527.js";const a={},s=c("p",null,"About page placeholder",-1),n=[s];function r(_,l){return o(),t("div",null,n)}const p=e(a,[["render",r]]);export{p as default};

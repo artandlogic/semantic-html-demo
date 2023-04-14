@@ -1,0 +1,1 @@
+import{a as e,o as c,b as o,e as r}from"./entry.4228db01.js";const s={},a=r("p",null,"Careers page placeholder",-1),t=[a];function n(_,l){return c(),o("div",null,t)}const p=e(s,[["render",n]]);export{p as default};
